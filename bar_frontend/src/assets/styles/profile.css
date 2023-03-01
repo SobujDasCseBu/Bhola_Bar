@@ -1,0 +1,9 @@
+.profile-container .edit-btn-container {
+  display: grid;
+  justify-content: end;
+  padding: 10px 10px;
+}
+
+.profile-update-modal {
+  width: 100% !important;
+}

@@ -1,0 +1,39 @@
+.admin-container.admin-edit .add-new-admin{
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.admin-container.admin-edit th, td {
+  padding: 5px 10px;
+}
+
+.admin-container.admin-edit .delete-icon,
+.admin-container.admin-edit .edit-icon {
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  user-select: none;
+}
+.admin-container.admin-edit .delete-icon svg path {
+  color: red;
+}
+.admin-container.admin-edit .delete-icon svg,
+.admin-container.admin-edit .edit-icon svg{
+  font-size: 18px;
+}
+
+.admin-container.admin-edit .delete-icon:hover,
+.admin-container.admin-edit .edit-icon:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 650px) { 
+  .admin-container.admin-edit .add-new-admin{
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

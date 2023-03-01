@@ -1,0 +1,17 @@
+.sidebar-notice-card .sidebar-notice-item {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.sidebar-notice-card .sidebar-notice-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-notice-card .pdf-icon svg {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.sidebar-notice-card .pdf-icon svg path {
+  color: red;
+}

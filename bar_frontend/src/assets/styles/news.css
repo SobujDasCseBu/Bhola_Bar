@@ -1,0 +1,96 @@
+.news-container .table-container tr {
+  display: grid;
+  grid-template-columns: auto 1fr 140px 105px 85px;
+}
+
+.news-container .table-container.admin tr {
+  display: grid;
+  grid-template-columns: auto 1fr 140px 105px 85px 48px;
+}
+
+.news-container .table-container tr td,
+.news-container .table-container tr th {
+  padding: 5px 10px;
+  display: grid;
+  align-items: center;
+}
+
+
+.news-container .table-container td.news-edit-td {
+  display: grid;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.news-container .table-container td.news-edit-td svg {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.news-container .table-container td.news-edit-td:hover svg {
+  opacity: 0.3;
+}
+
+.news-container .add-edit-news {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  justify-items: end;
+}
+
+.news-container .add-edit-news button.btn-add-news {
+  justify-self: end;
+}
+
+.news-container .desc-container p {
+  text-align: justify;
+}
+
+.news-container .news-details-body {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.news-container .news-details-body .image-viewer-inner {
+  width: 650px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.news-container .news-details-body .slider-body {
+  transition: margin 1s;
+  overflow: hidden;
+}
+
+.news-container .news-details-body .slider-body-item {
+  display: inline-block;
+}
+
+.news-container .news-details-body img {
+  max-width: 650px;
+}
+
+.news-container .news-details-body .image-viewer-inner span.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.news-container .news-details-body .image-viewer-inner span.right-arrow {
+  right: 0;
+}
+
+.news-container .news-details-body .image-viewer-inner span.arrow svg {
+  font-size: 25px;
+}
+
+.news-container .news-details-body .image-viewer-inner span.arrow svg path {
+  color: #fff;
+}

@@ -1,0 +1,59 @@
+.admin-container.member {
+  padding: 20px 40px;
+}
+
+.admin-container.member th, td {
+  padding: 5px 10px;
+}
+
+.admin-container.member .delete-icon,
+.admin-container.member .edit-icon {
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  user-select: none;
+}
+.admin-container.member .delete-icon svg path {
+  color: red;
+}
+.admin-container.member .delete-icon svg,
+.admin-container.member .edit-icon svg{
+  font-size: 18px;
+}
+
+.admin-container.member .delete-icon:hover,
+.admin-container.member .edit-icon:hover {
+  opacity: 0.5;
+}
+.admin-container.member .search-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+}
+
+.admin-container.member .search-container .member-add-btn {
+  justify-self: end;
+}
+
+.admin-container.member .table-container {
+  overflow: auto;
+}
+
+.admin-container.member .table-container table {
+  min-width: 600px;
+}
+
+@media only screen and (max-width: 768px) { 
+  .admin-container.member .search-container {
+    grid-template-columns: 1fr auto;
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 550px) { 
+  .admin-container.member .search-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}

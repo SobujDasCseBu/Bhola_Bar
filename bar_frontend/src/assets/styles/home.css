@@ -1,0 +1,80 @@
+.carousleContainer {
+}
+.carousleContainer .carouselLeft {
+}
+
+.carousleContainer .carouselRight {
+}
+.sidebar_check .card-header-container {
+  max-height: 40px;
+}
+
+
+section.carousle_section .marque .marquee_head {
+  height: 62px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  .carousleContainer {
+    gap: 2rem;
+  }
+  .carousleContainer .carouselLeft {
+    width: 75vw;
+    height: 100%;
+  }
+
+  .carousleContainer .carouselRight {
+    width: 25vw;
+    position: relative;
+  }
+  .carousleContainer .carouselRight .sidebar_card {
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    height: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .carousleContainer .carouselRight .sidebar_card .hd {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0;
+  }
+  .carousleContainer .carouselRight .sidebar_img {
+    height: 88%;
+
+    /* flex-grow: ; */
+
+    /* object-fit: cover; */
+  }
+  
+  .carousleContainer .carouselRight .sidebar_img {
+    height: 88%;
+
+    /* object-fit: cover; */
+  }
+}
+
+
+@media only screen and (max-width: 1023px) { 
+  section.carousle_section {
+    margin-top: 25px;
+  }
+
+  section.carousle_section .carouselRight {
+    margin: 35px 0;
+  }
+
+  section.counter {
+    margin-top: 25px;
+  }
+}

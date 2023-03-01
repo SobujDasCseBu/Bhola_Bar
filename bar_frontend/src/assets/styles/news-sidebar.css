@@ -1,0 +1,26 @@
+.sidebar-news-container .sidebar-news-link {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.sidebar-news-container .sidebar-news-link:hover > div{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-news-container .sidebar-news-item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+.sidebar-news-container .sidebar-news-item .img-left {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-news-container .sidebar-news-item .img-left img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.sidebar-news-container .sidebar-news-item .img-desc {
+  padding: 5px 10px;
+}

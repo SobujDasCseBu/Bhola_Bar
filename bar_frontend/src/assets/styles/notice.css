@@ -1,0 +1,46 @@
+.notice-container .table-container tr {
+  display: grid;
+  grid-template-columns: 40px 1fr 105px 85px;
+}
+
+.notice-container .table-container.admin tr {
+  display: grid;
+  grid-template-columns: 40px 1fr 105px 85px 48px 68px;
+}
+
+.notice-container .table-container tr td,
+.notice-container .table-container tr th {
+  padding: 5px 10px;
+  display: grid;
+  align-items: center;
+}
+
+
+.notice-container .table-container td.notice-edit-td {
+  display: grid;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.notice-container .table-container td.notice-edit-td svg {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.notice-container .table-container td.notice-edit-td:hover svg {
+  opacity: 0.3;
+}
+
+.notice-container .add-new-notice {
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+.notice-container .notice-details {
+  margin: 20px 0;
+}
+
+.notice-container .notice-details .notice-title {
+  margin: 20px 0px;
+}

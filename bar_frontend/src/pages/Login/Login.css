@@ -1,0 +1,158 @@
+.container.login-container {
+	max-width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+.login-container .member_login_page {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid #eaafb1;
+	border-radius: 10px;
+	padding: 0px 30px;
+	margin-bottom: 30px;
+}
+
+.login-container .member_login_img {
+	flex: 0 0 55%;
+	margin-top: 20px;
+}
+
+.login-container img {
+	max-width: 100%;
+}
+
+.login-container img {
+	vertical-align: middle;
+}
+
+.login-container img {
+	border: 0;
+}
+
+.login-container h3,
+.login-container h4,
+.login-container h5,
+.login-container h6 {
+	font-family: inherit;
+	font-weight: 500;
+	/* line-height: 1.1; */
+	color: inherit;
+	margin: 0;
+	padding: 0
+}
+
+.login-container h3 {
+	display: block;
+	font-size: 1.17em;
+	/* margin-block-start: 1em;
+	margin-block-end: 1em; */
+	/* margin-inline-start: 0px;
+	margin-inline-end: 0px; */
+	font-weight: bold;
+}
+
+.login-container h1,
+.login-container h2,
+.login-container h3 {
+	/* margin-top: 20px; */
+	/* margin-bottom: 10px; */
+}
+
+.login-container .row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.login-container .login_header h3 {
+	color: #aaa;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.login-container .login_header p {
+	color: #197659;
+	font-size: 20px;
+	/* margin-bottom: 30px; */
+}
+
+.login-container p {
+	margin: 0 0 10px;
+}
+
+.login-container p {
+	display: block;
+	/* margin-block-start: 1em;
+	margin-block-end: 1em; */
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.login-container .login_group label {
+	display: block;
+	color: #333;
+	font-size: 20px;
+}
+
+.login-container label {
+	font-size: 15px;
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+	cursor: default;
+}
+
+.login-container .login_group .login_input {
+	border: 1px solid #eaafb1;
+	border-radius: 5px;
+	width: 100%;
+	padding: 3px 8px;
+	font-size: 16px;
+}
+
+.login-container .login_btn {
+	text-align: center;
+	display: block;
+}
+
+.login-container .login_btn .s_btn {
+	font-size: 18px;
+	font-weight: 400;
+	background: #197659;
+	border-radius: 5px;
+	color: #fff;
+	padding: 5px 15px;
+	transition: all linear 0.4s;
+	margin-top: 15px;
+	display: inline-block;
+	text-align: center;
+}
+
+.login-container .login_btn button {
+	border: none;
+	cursor: pointer;
+	overflow: visible;
+	box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+	.login-container .member_login_page {
+		width: 83.33333333%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.login-container .member_login_page {
+		flex-direction: row;
+	}
+
+}
